@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 ### [build] 
+=======
+>>>>>>> 372d6b1ae50e926d135629f5f0c8bf5fd9e60a8a
 apiVersion: skaffold/v1beta12
 kind: Config
 build:
@@ -40,4 +43,4 @@ profiles:
     path: /deploy/helm/releases/0/setValues
     value: 
       storageClassName: microk8s-hostpath
-### [deploy] 
+
